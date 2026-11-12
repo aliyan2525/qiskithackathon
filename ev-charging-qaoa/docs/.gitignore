@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Virtual environments (never commit .venv)
+.venv/
+venv/
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Generated at run time; regenerate with `python main.py` and `python build_report.py`
+# (results/ and charts/ are committed after a run so reviewers can inspect them.)

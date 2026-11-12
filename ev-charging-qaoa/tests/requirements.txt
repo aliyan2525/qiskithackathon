@@ -1,0 +1,11 @@
+# Tested API surface: Qiskit 1.x V2 primitives, qiskit-algorithms and qiskit-optimization.
+# After a successful run, `pip freeze > requirements.lock.txt` records the exact versions used.
+qiskit>=1.1,<2
+qiskit-algorithms>=0.3
+qiskit-optimization>=0.6
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+rich>=13
+python-docx>=1.1
+pytest>=8
