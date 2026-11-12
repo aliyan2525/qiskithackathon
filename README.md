@@ -7,7 +7,7 @@ The objective trades off tariff/urgency cost against quadratic distribution-tran
 under hard state-of-charge (SoC) equalities. Two QAOA formulations are compared against exact classical references.
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
-[![Qiskit](https://img.shields.io/badge/qiskit-1.x-purple)](https://quantum.cloud.ibm.com/docs/)
+[![Qiskit](https://img.shields.io/badge/qiskit-1.x-purple)](https://qiskit.org/documentation/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ---
@@ -101,8 +101,8 @@ The penalty ansatz is only feasible on the probability mass that the penalty pus
 ## 6. Getting started
 
 ```bash
-git clone https://github.com/<your-username>/ev-charging-qaoa.git
-cd ev-charging-qaoa
+git clone https://github.com/aliyan2525/qiskithackathon.git
+cd qiskithackathon
 python -m venv .venv
 source .venv/bin/activate           # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -125,7 +125,7 @@ python build_report.py              # submission report
 ### Project layout
 
 ```
-ev-charging-qaoa/
+qiskithackathon/
 ├── main.py                    # formulation → encoding → QAOA (2 variants) → validation → results
 ├── build_report.py            # .docx report generated only from results/results.json
 ├── tests/test_model.py        # regression tests (classical model, encoding, XY feasibility)
@@ -160,7 +160,6 @@ ev-charging-qaoa/
 
 The problem framing and the initial pipeline were drafted with help from an AI assistant (Google Gemini strategy document).
 Later review and corrections were made with Claude. All numbers in this repository come from running the code.
-*(Edit this paragraph to match your own account of how you used AI tools.)*
 
 ## License
 
